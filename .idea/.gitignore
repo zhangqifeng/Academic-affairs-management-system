@@ -3,13 +3,13 @@
 /workspace.xml
 # Datasource local storage ignored files
 /dataSources/
-/dataSources.local.xml
+/dataSources.local.xml/
 # Editor-based HTTP Client requests
 /httpRequests/
-/.idea/.gitignore
-/.idea/compiler.xml
-/.idea/encodings.xml
-/.idea/jarRepositories.xml
-/.idea/misc.xml
-/.idea/modules.xml
-       
+/.idea/.gitignore/
+/.idea/compiler.xml/
+/.idea/encodings.xml/
+/.idea/jarRepositories.xml/
+/.idea/misc.xml/
+/.idea/modules.xml/
+
