@@ -33,7 +33,7 @@
     <div class="manager-main">
       <!--  侧边栏  -->
       <div class="manager-main-left">
-        <el-menu :default-openeds="['info', 'user']" router style="border: none" :default-active="$route.path">
+        <el-menu :default-openeds="['info', 'user','teach','administration']" router style="border: none" :default-active="$route.path">
           <el-menu-item index="/home">
             <i class="el-icon-s-home"></i>
             <span slot="title">系统首页</span>
@@ -43,6 +43,7 @@
               <i class="el-icon-menu"></i><span>信息管理</span>
             </template>
             <el-menu-item index="/notice">公告信息</el-menu-item>
+            <el-menu-item index="/roomplan">教室信息</el-menu-item>
           </el-submenu>
 
             <el-submenu index="teach">
@@ -55,12 +56,22 @@
                 <el-menu-item index="/curriculum" >我的课表</el-menu-item>
             </el-submenu>
 
+            <el-submenu index="administration">
+                <template slot="title">
+                    <i class="el-icon-menu"></i><span>行政管理</span>
+                </template>
+                <el-menu-item index="/college">学院信息</el-menu-item>
+                <el-menu-item index="/speciality">专业信息</el-menu-item>
+                <el-menu-item index="/classes">班级信息</el-menu-item>
+            </el-submenu>
+
 
           <el-submenu index="user">
             <template slot="title">
               <i class="el-icon-menu"></i><span>用户管理</span>
             </template>
             <el-menu-item index="/admin">管理员信息</el-menu-item>
+            <el-menu-item index="/teacher">教师信息</el-menu-item>
             <el-menu-item index="/student">学生信息</el-menu-item>
           </el-submenu>
         </el-menu>
