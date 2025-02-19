@@ -26,6 +26,16 @@ const routes = [
       { path: 'course', name: 'Course', meta: { name: '课程信息' }, component: () => import('../views/manager/Course') },
       { path: 'choice', name: 'Choice', meta: { name: '我的选课' }, component: () => import('../views/manager/Choice') },
       { path: 'curriculum', name: 'Curriculum', meta: { name: '我的课表' }, component: () => import('../views/manager/Curriculum') },
+      { path: 'teacher', name: 'Teacher', meta: { name: '教师信息' }, component: () => import('../views/manager/Teacher') },
+      { path: 'teacherPerson', name: 'TeacherPerson', meta: { name: '个人信息' }, component: () => import('../views/manager/TeacherPerson') },
+      { path: 'student', name: 'Student', meta: { name: '学生信息' }, component: () => import('../views/manager/Student') },
+      { path: 'studentPerson', name: 'StudentPerson', meta: { name: '个人信息' }, component: () => import('../views/manager/StudentPerson') },
+      { path: 'password', name: 'Password', meta: { name: '修改密码' }, component: () => import('../views/manager/Password') },
+      { path: 'notice', name: 'Notice', meta: { name: '公告信息' }, component: () => import('../views/manager/Notice') },
+      { path: 'roomplan', name: 'Roomplan', meta: { name: '教室信息' }, component: () => import('../views/manager/Roomplan') },
+      { path: 'college', name: 'College', meta: { name: '学院信息' }, component: () => import('../views/manager/College') },
+      { path: 'speciality', name: 'Speciality', meta: { name: '专业信息' }, component: () => import('../views/manager/Speciality') },
+      { path: 'classes', name: 'Classes', meta: { name: '班级信息' }, component: () => import('../views/manager/Classes') },
     ]
   },
   {
